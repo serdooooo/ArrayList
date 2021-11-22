@@ -18,6 +18,8 @@ namespace kurs_22112021_38_ArrayListGenelKullanimi
             odevListe.Add("Ali Mert");
             odevListe.Add("Serdar");
             odevListe.Add("Gamze");
+            odevListe.Add("Erdem");
+
             odevListe.Add("Hakan");
             odevListe.Add("Furkan");
             odevListe.Add("Birol");
@@ -25,7 +27,7 @@ namespace kurs_22112021_38_ArrayListGenelKullanimi
             odevListe.Add("Yakup");
             //tüm değerleri a-z çevir
             odevListe.Sort(); //sıralama
-            //odevListe.Reverse(); //sıralananı tersten yazdırma.
+            odevListe.Reverse(); //sıralananı tersten yazdırma.
             foreach (var item in odevListe)
             {
                 Console.WriteLine(item);
